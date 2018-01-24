@@ -20,4 +20,4 @@ deployment:
  staging:
    branch: master
    commands:
-     - ufo ship hi-web --cluster owey-develoment-cluster --no-docker --no-docker
+     - ufo ship hi-web --cluster owey-develoment-cluster --no-docker
