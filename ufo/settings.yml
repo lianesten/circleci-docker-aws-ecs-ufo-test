@@ -1,6 +1,6 @@
 image: tongueroo/hi
 service_cluster:
-  default: stag # default cluster
+  default: owey-develoment-cluster # default cluster
   # can override the default cluster for each service.  CLI overrides all of these settings.
   hi-web-prod:
   hi-clock-prod:

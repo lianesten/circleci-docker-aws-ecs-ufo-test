@@ -19,6 +19,6 @@ test:
     - docker-compose run web bundle exec rake
 deployment:
  staging:
-   branch: circle-ecs
+   branch: master
    commands:
-     - ufo ship hi-web --cluster stag --no-docker --no-docker
+     - ufo ship hi-web --cluster owey-develoment-cluster --no-docker --no-docker
